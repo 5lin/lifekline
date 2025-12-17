@@ -1,8 +1,14 @@
-# 🔮 人生 K 线
+# 🔮 人生 K 线 (Life Destiny K-Line)
 
-> ⚠️ **此仓库已归档**
+> 基于 AI 大模型和传统八字命理，将人生运势以 K 线图形式可视化展现。
 
-本项目已迁移至新地址，请访问作者主页获取最新版本。
+---
+
+## ⚠️ 获取项目
+
+本项目由 **@0xSakura666** 开发，如需获取完整版本，请联系原作者：
+
+[![Twitter](https://img.shields.io/badge/Twitter-@0xSakura666-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/0xsakura666)
 
 ---
 

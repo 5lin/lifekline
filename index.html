@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>项目已迁移</title>
+    <title>人生K线 - 联系作者获取</title>
     <style>
         * {
             margin: 0;
@@ -25,22 +25,64 @@
         .container {
             text-align: center;
             padding: 2rem;
-        }
-
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-
-        p {
-            font-size: 1.2rem;
-            color: #a0a0a0;
-            margin-bottom: 2rem;
+            max-width: 500px;
         }
 
         .emoji {
             font-size: 4rem;
             margin-bottom: 1rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            font-size: 1rem;
+            color: #a0a0a0;
+            margin-bottom: 2rem;
+        }
+
+        .message {
+            font-size: 1.1rem;
+            color: #ccc;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        .contact-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 1rem 2rem;
+            background: #1DA1F2;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(29, 161, 242, 0.4);
+        }
+
+        .contact-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(29, 161, 242, 0.6);
+        }
+
+        .contact-btn svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        .footer {
+            margin-top: 3rem;
+            font-size: 0.85rem;
+            color: #666;
         }
     </style>
 </head>
@@ -48,8 +90,20 @@
 <body>
     <div class="container">
         <div class="emoji">🔮</div>
-        <h1>项目已迁移</h1>
-        <p>此版本已停止维护，请访问作者主页获取最新版本。</p>
+        <h1>人生 K 线</h1>
+        <p class="subtitle">Life Destiny K-Line</p>
+        <p class="message">
+            本项目由 <strong>@0xSakura666</strong> 开发<br>
+            如需获取完整版本，请联系原作者
+        </p>
+        <a href="https://x.com/0xsakura666" target="_blank" class="contact-btn">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+            </svg>
+            联系 @0xSakura666
+        </a>
+        <p class="footer">仅供娱乐与文化研究，请勿迷信</p>
     </div>
 </body>
 
